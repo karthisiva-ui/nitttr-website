@@ -7,7 +7,7 @@
 <div class="col-12 p-0">
     <section class="inner-banner-section">
         <div class="container">
-            <h1 class="banner-title">>Dean - Academics and Research</h1>
+            <h1 class="banner-title">Dean - Academics and Research</h1>
         </div>
     </section>
 </div>

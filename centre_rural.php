@@ -136,7 +136,7 @@
                                     </li>
                                     <p>The number of polytechnics in each State implementing the Scheme of CDTP</p>
                                     <div class="mt-3 mb-3">
-                                        <table class="table table-bordered table-hover" width="100%">
+                                        <table class="table table-bordered table-striped table-hover" width="100%">
                                             <thead>
                                                 <tr>
                                                     <th>Andhra Pradesh </th>

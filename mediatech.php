@@ -422,7 +422,7 @@
                                         <div class="container views">
 
 
-                                            <table id="" class="table table-bordered table-hover">
+                                            <table id="" class="table table-striped able-bordered table-hover">
                                                 <thead>
                                                     <tr>
                                                         <th width="1%"><em>S No</em></th>
