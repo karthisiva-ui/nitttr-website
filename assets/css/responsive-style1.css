@@ -1,0 +1,115 @@
+/* # Responsiveness 1 */
+@media screen and (max-width:1400px) {
+    .breadcrumbs ol{
+        font-size: var(--text-14);
+    }
+    .courses-details .header-title h2{
+        font-size: var(--text-40);
+        margin-bottom: 0;
+    }
+    .courses-details .content .content-pra .title h3{
+        font-size: var(--text-20);
+    }
+    .courses-details p{
+        font-size: var(--text-16);
+    }
+    .courses-details .content .content-pra .lists li .icon{
+        margin-right: 5px;
+    }
+    .courses-details .content .content-pra{
+        margin-bottom: 30px;
+    }
+}
+@media screen and (max-width: 1200px) {
+    .faculty-list .col-md-3{
+        width: 33.25%;
+    }
+}
+@media screen and (max-width: 992px) {
+    .breadcrumbs ol{
+        font-size: var(--text-12);
+    }
+    .courses-details .header-title h2{
+        font-size: var(--text-32);
+        margin-bottom: 0;
+    }
+    .courses-details .content .content-pra .title h3{
+        font-size: var(--text-18);
+    }
+    .courses-details p{
+        font-size: var(--text-14);
+    }
+    .courses-details .content .content-pra .lists li .icon{
+        margin-right: 0;
+    }
+    .courses-details .content .content-pra{
+        margin-bottom: 25px;
+    }
+    .faculty-list .col-md-3{
+        width: 50%;
+    }
+    .faculty-list .card-text{
+        font-size: var(--text-16);
+    }
+}
+@media screen and (max-width: 767px) {
+    .breadcrumbs ol{
+        font-size: var(--text-12);
+        text-align: center;
+    }
+    .courses-details .header-title h2{
+        font-size: var(--text-26);
+        margin-bottom: 0;
+        text-align: center
+    }
+    .courses-details .content .content-pra .title{
+        margin-bottom: 30px;
+    }
+    .courses-details .content .content-pra .title h3{
+        font-size: var(--text-18);
+    }
+    .courses-details p{
+        font-weight: 400;
+    }
+    .courses-details .content .content-pra .lists li .icon{
+        margin-right: 0;
+    }
+    .courses-details .header-title span{
+        text-align: center;
+        font-size: var(--text-14);
+    }
+    .faculty-list .col-md-3{
+        width: 60%;
+        margin: 0 auto;
+    }
+    .faculty-list .card-text{
+        font-size: var(--text-14);
+    }
+}
+@media screen and (max-width: 480px) {
+    .inner-banner-section{
+        height: 250px;
+    }
+    .banner-title{
+        font-size: var(--text-20);
+    }
+    .courses-details .header-title h2 {
+        font-size: var(--text-22);
+    }
+    .courses-details .header-title{
+        padding-bottom: 20px;
+    }
+    .courses-details .content .content-pra .lists li .icon::after {
+        top: 6px;
+        left: -2px;
+        height: 20px;
+        width: 20px;
+    }
+    .courses-details ul i{
+        font-size: var(--text-16);
+    }
+    .faculty-list .col-md-3{
+        width: 100%;
+        margin: 0 auto;
+    }
+}

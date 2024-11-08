@@ -13,6 +13,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
 
+:root{
+  --text-12: 12px;
+  --text-14: 14px;
+  --text-15: 15px;
+  --text-16: 16px;
+  --text-17: 17px;
+  --text-18: 18px;
+  --text-20: 20px;
+  --text-22: 22px;
+  --text-24: 24px;
+  --text-26: 26px;
+  --text-28: 28px;
+  --text-30: 30px;
+  --text-32: 32px;
+  --text-36: 36px;
+  --text-40: 40px;
+  --text-48: 48px;
+  --text-50: 50px;
+  --text-60: 60px;
+}
+
 body {
   font-family: "Poppins", sans-serif;
   color: #444444;
@@ -96,7 +117,7 @@ p{
 }
 
 .back-to-top i {
-  font-size: 28px;
+  font-size: var(--text-28);
   color: #fff;
   line-height: 0;
 }
@@ -126,7 +147,7 @@ p{
 #topbar {
   background: #2487CE;
   height: 30px;
-  font-size: 14px;
+  font-size: var(--text-14);
   transition: all 0.5s;
   color: #fff;
   padding: 0;
@@ -181,7 +202,7 @@ p{
 }
 
 #header .logo {
-  font-size: 30px;
+  font-size: var(--text-30);
   margin: 0;
   padding: 0;
   line-height: 1;
@@ -226,7 +247,7 @@ p{
 
 .navbar li {
   position: relative;
-  font-size: 16px;
+  font-size: var(--text-16);
   color: black;
   font-weight: bold;
 }
@@ -242,7 +263,7 @@ p{
   align-items: center;
   justify-content: space-between;
   padding: 0 3px;
-  font-size: 20px;
+  font-size: var(--text-20);
   font-weight: 400;
   color: #222222;
   white-space: nowrap;
@@ -252,7 +273,7 @@ p{
 
 .navbar a i,
 .navbar a:focus i {
-  font-size: 12px;
+  font-size: var(--text-12);
   line-height: 0;
   margin-left: 5px;
 }
@@ -301,18 +322,18 @@ p{
 
 .navbar .dropdown ul li {
   min-width: 200px;
-  font-size: 15px;
+  font-size: var(--text-15);
   font-weight: 600;
 }
 
 .navbar .dropdown ul a {
   padding: 10px 20px;
   font-weight: 400;
-  font-size: 20px;
+  font-size: var(--text-20);
 }
 
 .navbar .dropdown ul a i {
-  font-size: 18px;
+  font-size: var(--text-18);
 }
 
 .navbar .dropdown ul a:hover,
@@ -355,7 +376,7 @@ p{
 */
 .mobile-nav-toggle {
   color: #222222;
-  font-size: 28px;
+  font-size: var(--text-28);
   cursor: pointer;
   display: none;
   line-height: 0;
@@ -407,7 +428,7 @@ p{
 .navbar-mobile a,
 .navbar-mobile a:focus {
   padding: 10px 20px;
-  font-size: 15px;
+  font-size: var(--text-15);
   color: #222222;
 }
 
@@ -453,7 +474,7 @@ p{
 }
 
 .navbar-mobile .dropdown ul a i {
-  font-size: 12px;
+  font-size: var(--text-12);
 }
 
 .navbar-mobile .dropdown ul a:hover,
@@ -493,7 +514,7 @@ p{
 
 #hero h1 {
   margin: 0;
-  font-size: 48px;
+  font-size: var(--text-48);;
   font-weight: 700;
   line-height: 56px;
   color: #222222;
@@ -507,7 +528,7 @@ p{
 #hero h2 {
   color: #555555;
   margin: 5px 0 30px 0;
-  font-size: 24px;
+  font-size: var(--text-24);
   font-weight: 400;
 }
 
@@ -515,7 +536,7 @@ p{
   font-family: "Roboto", sans-serif;
   text-transform: uppercase;
   font-weight: 500;
-  font-size: 14px;
+  font-size: var(--text-14);
   letter-spacing: 1px;
   display: inline-block;
   padding: 10px 28px;
@@ -530,7 +551,7 @@ p{
 }
 
 #hero .btn-watch-video {
-  font-size: 18px;
+  font-size: var(--text-18);
   transition: 0.5s;
   margin-left: 25px;
   color: #222222;
@@ -541,7 +562,7 @@ p{
 
 #hero .btn-watch-video i {
   color: #2487CE;
-  font-size: 32px;
+  font-size: var(--text-32);
   transition: 0.3s;
   line-height: 0;
   margin-right: 8px;
@@ -567,19 +588,19 @@ p{
   }
 
   #hero h1 {
-    font-size: 28px;
+    font-size: var(--text-28);
     line-height: 36px;
   }
 
   #hero h2 {
-    font-size: 18px;
+    font-size: var(--text-18);
     line-height: 24px;
     margin-bottom: 30px;
   }
 
   #hero .btn-get-started,
   #hero .btn-watch-video {
-    font-size: 13px;
+    font-size: var(--text-15);
   }
 }
 
@@ -607,7 +628,7 @@ section {
 }
 
 .section-title h2 {
-  font-size: 13px;
+  font-size: var(--text-15);
   letter-spacing: 1px;
   font-weight: 700;
   padding: 8px 20px;
@@ -621,7 +642,7 @@ section {
 
 .section-title h3 {
   margin: 15px 0 0 0;
-  font-size: 32px;
+  font-size: var(--text-32);
   font-weight: 700;
 }
 
@@ -650,7 +671,7 @@ section {
 }
 
 .breadcrumbs h2 {
-  font-size: 24px;
+  font-size: var(--text-24);
   font-weight: 300;
   margin: 0;
 }
@@ -668,7 +689,7 @@ section {
   list-style: none;
   padding: 0;
   margin: 0;
-  font-size: 17px;
+  font-size: var(--text-17);
   font-weight: 600;
   
 }
@@ -736,7 +757,7 @@ section {
 }
 
 .featured-services .icon i {
-  font-size: 48px;
+  font-size: var(--text-48);;
   line-height: 1;
   color: #2487CE;
   transition: all 0.3s ease-in-out;
@@ -745,7 +766,7 @@ section {
 .featured-services .title {
   font-weight: 700;
   margin-bottom: 15px;
-  font-size: 18px;
+  font-size: var(--text-18);
 }
 
 .featured-services .title a {
@@ -754,7 +775,7 @@ section {
 }
 
 .featured-services .description {
-  font-size: 15px;
+  font-size: var(--text-15);
   line-height: 28px;
   margin-bottom: 0;
 }
@@ -773,7 +794,7 @@ section {
 --------------------------------------------------------------*/
 .about .content h3 {
   font-weight: 600;
-  font-size: 26px;
+  font-size: var(--text-26);
 }
 
 .about .content ul {
@@ -794,7 +815,7 @@ section {
 .about .content ul i {
   background: #fff;
   box-shadow: 0px 6px 15px rgba(16, 110, 234, 0.12);
-  font-size: 24px;
+  font-size: var(--text-24);
   padding: 20px;
   margin-right: 15px;
   color: #2487CE;
@@ -802,12 +823,12 @@ section {
 }
 
 .about .content ul h5 {
-  font-size: 18px;
+  font-size: var(--text-18);
   color: #555555;
 }
 
 .about .content ul p {
-  font-size: 15px;
+  font-size: var(--text-15);
 }
 
 .about .content p:last-child {
@@ -871,7 +892,7 @@ section {
   top: -28px;
   left: 50%;
   transform: translateX(-50%);
-  font-size: 24px;
+  font-size: var(--text-24);
   background: #2487CE;
   color: #fff;
   width: 56px;
@@ -885,7 +906,7 @@ section {
 }
 
 .counts .count-box span {
-  font-size: 36px;
+  font-size: var(--text-36);
   display: block;
   font-weight: 600;
   color: #062b5b;
@@ -895,7 +916,7 @@ section {
   padding: 0;
   margin: 0;
   font-family: "Roboto", sans-serif;
-  font-size: 14px;
+  font-size: var(--text-14);
 }
 
 /*--------------------------------------------------------------
@@ -950,14 +971,14 @@ section {
 
 .services .icon-box .icon i {
   color: #3b8af2;
-  font-size: 28px;
+  font-size: var(--text-28);
   transition: ease-in-out 0.3s;
 }
 
 .services .icon-box h4 {
   font-weight: 700;
   m: 15px;
-  font-size: 24px;
+  font-size: var(--text-24);
 }
 
 .services .icon-box h4 a {
@@ -967,7 +988,7 @@ section {
 
 .services .icon-box p {
   line-height: 24px;
-  font-size: 14px;
+  font-size: var(--text-14);
   m: 0;
 }
 
@@ -1028,14 +1049,14 @@ section {
 }
 
 .testimonials .testimonial-item h3 {
-  font-size: 20px;
+  font-size: var(--text-20);
   font-weight: bold;
   margin: 10px 0 5px 0;
   color: #fff;
 }
 
 .testimonials .testimonial-item h4 {
-  font-size: 14px;
+  font-size: var(--text-14);
   color: #ddd;
   margin: 0 0 15px 0;
 }
@@ -1043,7 +1064,7 @@ section {
 .testimonials .testimonial-item .quote-icon-left,
 .testimonials .testimonial-item .quote-icon-right {
   color: rgba(255, 255, 255, 0.4);
-  font-size: 26px;
+  font-size: var(--text-26);
 }
 
 .testimonials .testimonial-item .quote-icon-left {
@@ -1103,7 +1124,7 @@ section {
   cursor: pointer;
   display: inline-block;
   padding: 10px 15px 8px 15px;
-  font-size: 18px;
+  font-size: var(--text-18);
   font-weight: 400;
   line-height: 1;
   text-transform: uppercase;
@@ -1137,7 +1158,7 @@ section {
 }
 
 .portfolio .portfolio-item .portfolio-info h4 {
-  font-size: 18px;
+  font-size: var(--text-18);
   color: #fff;
   font-weight: 600;
   color: #222222;
@@ -1145,7 +1166,7 @@ section {
 
 .portfolio .portfolio-item .portfolio-info p {
   color: #555555;
-  font-size: 14px;
+  font-size: var(--text-14);
   m: 0;
 }
 
@@ -1153,7 +1174,7 @@ section {
 .portfolio .portfolio-item .portfolio-info .details-link {
   position: absolute;
   right: 40px;
-  font-size: 24px;
+  font-size: var(--text-24);
   top: calc(50% - 18px);
   color: #3c3c3c;
 }
@@ -1180,7 +1201,7 @@ section {
 .portfolio .portfolio-item .portfolio-links a {
   color: #fff;
   margin: 0 2px;
-  font-size: 28px;
+  font-size: var(--text-28);
   display: inline-block;
   transition: 0.3s;
 }
@@ -1228,7 +1249,7 @@ section {
 }
 
 .portfolio-details .portfolio-info h3 {
-  font-size: 22px;
+  font-size: var(--text-22);
   font-weight: 700;
   m: 20px;
   padding-bottom: 20px;
@@ -1238,7 +1259,7 @@ section {
 .portfolio-details .portfolio-info ul {
   list-style: none;
   padding: 0;
-  font-size: 15px;
+  font-size: var(--text-15);
 }
 
 .portfolio-details .portfolio-info ul li+li {
@@ -1250,7 +1271,7 @@ section {
 }
 
 .portfolio-details .portfolio-description h2 {
-  font-size: 26px;
+  font-size: var(--text-26);
   font-weight: 700;
   m: 20px;
 }
@@ -1308,7 +1329,7 @@ section {
 }
 
 .team .member .social i {
-  font-size: 18px;
+  font-size: var(--text-18);
 }
 
 .team .member .member-info {
@@ -1318,20 +1339,20 @@ section {
 .team .member .member-info h4 {
   font-weight: 700;
   margin-bottom: 5px;
-  font-size: 18px;
+  font-size: var(--text-18);
   color: #222222;
 }
 
 .team .member .member-info span {
   display: block;
-  font-size: 13px;
+  font-size: var(--text-15);
   font-weight: 400;
   color: #aaaaaa;
 }
 
 .team .member .member-info p {
   font-style: italic;
-  font-size: 14px;
+  font-size: var(--text-14);
   line-height: 26px;
   color: #777777;
 }
@@ -1358,14 +1379,14 @@ section {
   font-weight: 400;
   margin: -20px -20px 20px -20px;
   padding: 20px 15px;
-  font-size: 18px;
+  font-size: var(--text-18);
   font-weight: 600;
   color: #777777;
   background: #f8f8f8;
 }
 
 .pricing .box h4 {
-  font-size: 36px;
+  font-size: var(--text-36);
   color: #2487CE;
   font-weight: 600;
   font-family: "Poppins", sans-serif;
@@ -1373,14 +1394,14 @@ section {
 }
 
 .pricing .box h4 sup {
-  font-size: 20px;
+  font-size: var(--text-20);
   top: -15px;
   left: -3px;
 }
 
 .pricing .box h4 span {
   color: #bababa;
-  font-size: 18px;
+  font-size: var(--text-18);
   font-weight: 300;
 }
 
@@ -1390,7 +1411,7 @@ section {
   color: #444444;
   text-align: center;
   line-height: 20px;
-  font-size: 14px;
+  font-size: var(--text-14);
 }
 
 .pricing .box ul li {
@@ -1399,7 +1420,7 @@ section {
 
 .pricing .box ul i {
   color: #2487CE;
-  font-size: 18px;
+  font-size: var(--text-18);
   padding-right: 4px;
 }
 
@@ -1422,7 +1443,7 @@ section {
   border-radius: 4px;
   color: #fff;
   transition: none;
-  font-size: 14px;
+  font-size: var(--text-14);
   font-weight: 400;
   font-family: "Roboto", sans-serif;
   font-weight: 600;
@@ -1445,7 +1466,7 @@ section {
   right: -68px;
   transform: rotate(45deg);
   z-index: 1;
-  font-size: 14px;
+  font-size: var(--text-14);
   padding: 1px 0 3px 0;
   background: #2487CE;
   color: #fff;
@@ -1473,7 +1494,7 @@ section {
   display: block;
   position: relative;
   font-family: #2487CE;
-  font-size: 18px;
+  font-size: var(--text-18);
   line-height: 24px;
   font-weight: 400;
   padding-left: 25px;
@@ -1483,7 +1504,7 @@ section {
 }
 
 .faq .faq-list i {
-  font-size: 18px;
+  font-size: var(--text-18);
   position: absolute;
   left: 0;
   top: -2px;
@@ -1527,7 +1548,7 @@ section {
 }
 
 .contact .info-box i {
-  font-size: 32px;
+  font-size: var(--text-32);
   color: #2487CE;
   border-radius: 50%;
   padding: 8px;
@@ -1535,7 +1556,7 @@ section {
 }
 
 .contact .info-box h3 {
-  font-size: 20px;
+  font-size: var(--text-20);
   color: #777777;
   font-weight: 700;
   margin: 10px 0;
@@ -1544,7 +1565,7 @@ section {
 .contact .info-box p {
   padding: 0;
   line-height: 24px;
-  font-size: 14px;
+  font-size: var(--text-14);
   margin-bottom: 0;
 }
 
@@ -1602,7 +1623,7 @@ section {
 .contact .php-email-form textarea {
   border-radius: 0;
   box-shadow: none;
-  font-size: 14px;
+  font-size: var(--text-14);
 }
 
 .contact .php-email-form input:focus,
@@ -1648,7 +1669,7 @@ section {
   background: #fff;
   padding: 0 0 30px 0;
   color: #ffffff;
-  font-size: 14px;
+  font-size: var(--text-14);
   background: #f1f6fe;
 }
 
@@ -1656,11 +1677,11 @@ section {
   padding: 50px 0;
   background: #f1f6fe;
   text-align: center;
-  font-size: 15px;
+  font-size: var(--text-15);
 }
 
 #footer .footer-newsletter h4 {
-  font-size: 24px;
+  font-size: var(--text-24);
   margin: 0 0 20px 0;
   padding: 0;
   line-height: 1;
@@ -1690,7 +1711,7 @@ section {
   bottom: 0;
   border: 0;
   background: none;
-  font-size: 18px;
+  font-size: var(--text-18);
   padding: 0 20px;
   background: #2487CE;
   color: #fff;
@@ -1713,7 +1734,7 @@ section {
 }
 
 #footer .footer-top .footer-contact h3 {
-  font-size: 24px;
+  font-size: var(--text-24);
   margin: 0 0 15px 0;
   padding: 2px 0 2px 0;
   line-height: 1;
@@ -1725,7 +1746,7 @@ section {
 }
 
 #footer .footer-top .footer-contact p {
-  font-size: 14px;
+  font-size: var(--text-14);
   line-height: 24px;
   margin-bottom: 0;
   font-family: "Roboto", sans-serif;
@@ -1733,7 +1754,7 @@ section {
 }
 
 #footer .footer-top h4 {
-  font-size: 18px;
+  font-size: var(--text-18);
   font-weight: bold;
   color: #ffffff;
   position: relative;
@@ -1753,7 +1774,7 @@ section {
 #footer .footer-top .footer-links ul i {
   padding-right: 2px;
   color: #ffffff;
-  font-size: 18px;
+  font-size: var(--text-18);
   line-height: 1;
 }
 
@@ -1780,7 +1801,7 @@ section {
 }
 
 #footer .footer-top .social-links a {
-  font-size: 18px;
+  font-size: var(--text-18);
   display: inline-block;
   background: #2487CE;
   color: #fff;
@@ -1808,7 +1829,7 @@ section {
 #footer .credits {
   float: right;
   text-align: center;
-  font-size: 13px;
+  font-size: var(--text-15);
   color: #ffffff;
 }
 
@@ -1844,7 +1865,7 @@ section {
 }
 
 .call-to-action .content h3 {
-  font-size: 48px;
+  font-size: var(--text-48);;
   font-weight: 700;
 }
 
@@ -1868,13 +1889,13 @@ section {
 .call-to-action .content p {
   color: color-mix(in srgb, var(--default-color), transparent 20%);
   font-weight: 400;
-  font-size: 18px;
+  font-size: var(--text-18);
 }
 
 .call-to-action .content .cta-btn {
   color: var(--contrast-color);
   font-weight: 500;
-  font-size: 18px;
+  font-size: var(--text-18);
   display: inline-block;
   padding: 12px 40px;
   border-radius: 5px;
@@ -1939,31 +1960,31 @@ section {
 
 ul i {
   flex-shrink: 0;
-  font-size: 48px;
+  font-size: var(--text-48);;
   color: var(--accent-color);
   margin-right: 20px;
 }
 
 ul h5 {
-  font-size: 18px;
+  font-size: var(--text-18);
   font-weight: 700;
 }
 
 ul p {
-  font-size: 15px;
+  font-size: var(--text-15);
   
 }
 
 h2{
   color:#134C75;
-  font-size: 24px;
+  font-size: var(--text-24);
   font-weight: 600;
   margin: 10px;
   padding: auto;
 }
 
 p {
-  font-size: 18px;
+  font-size: var(--text-18);
   font-weight: 800; 
   margin-bottom: -20px;
 }
@@ -1990,7 +2011,7 @@ a.link-text-box {
 }
 .section-title h3{
   font-weight: 500;
-  font-size: 40px;
+  font-size: var(--text-40);
 }
 .marquee-container {
   background: #29315a;
@@ -2023,7 +2044,7 @@ a.link-text-box {
 #counts .nav-tabs .nav-item .nav-link{
   padding: 10px 6px;
   margin: 0 5px -1px 0;
-  font-size: 20px;
+  font-size: var(--text-20);
   font-weight: 600;
   color: #293241;
   text-transform: uppercase;
@@ -2466,7 +2487,7 @@ section#portfolio{
 .counter-box .title {
   color: #2a325b;
   margin-top: 20px;
-  font-size: 20px;
+  font-size: var(--text-20);
   font-weight: 600;
   text-transform: capitalize;
 }
@@ -2619,7 +2640,7 @@ section#portfolio{
   display: block;
 }
 .courses-details .header-title h2 {
-  font-size: 48px;
+  font-size: var(--text-48);;
   margin-bottom: 30px;
 }
 .courses-details .header-title {
@@ -2638,7 +2659,7 @@ section#portfolio{
   margin-bottom: 45px;
 }
 .courses-details .content .content-pra .title h3 {
-  font-size: 22px;
+  font-size: var(--text-22);
 }
 .courses-details .content .content-pra .title::after {
   position: absolute;
@@ -2653,6 +2674,7 @@ section#portfolio{
   color: #5a5a5a;
   margin-bottom: 15px;
   margin-top: 0;
+  font-size: var(--text-18);
   line-height: 1.8;
 
 }
@@ -2688,7 +2710,7 @@ section#portfolio{
 }
 .courses-details .content .content-pra .lists li .icon {
   color: #062b5b;
-  font-size: 20px;
+  font-size: var(--text-20);
   position: relative;
   margin-right: 20px;
 }
@@ -2707,7 +2729,7 @@ section#portfolio{
   margin-bottom: 0;
 } 
 .courses-details ul i{
-  font-size: 20px;
+  font-size: var(--text-20);
 }
 .margin-top-50 {
   margin-top: 180px;
