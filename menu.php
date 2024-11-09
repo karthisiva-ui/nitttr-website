@@ -46,6 +46,7 @@ $website1="https://www.nitttrc.ac.in/";
 
 
     <!-- Template Main CSS File -->
+    <link href="assets/css/main.css" rel="stylesheet">
     <link href="assets/css/style.css" rel="stylesheet">
     <link href="assets/css/responsive-style1.css" rel="stylesheet">
     <link href="assets/css/custom-style.css" rel="stylesheet">
@@ -316,234 +317,159 @@ p {
         <header id="header">
 
 
-            <div class="container">
-                <div class="d-flex align-items-center">
-                <nav class="navbar navbar-expand-lg navbar-light w-100">
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
-                        <ul class="navbar-nav mb-2 mb-lg-0 me-auto">
+            <div class="container position-relative d-flex align-items-center justify-content-between">
+                <nav id="navmenu" class="navmenu">
+                    <ul>
+                        <li class="dropdown"><a href="#institute" class="active"><span>Institute</span> <i
+                                    class="bi bi-chevron-down toggle-dropdown"></i></a>
+                            <ul>
+                                <li><a href="about.php">About Us</a></li>
+                                <li><a href="vision.php">Vision & Mission</a></li>
+                                <li><a href="https://www.nitttrc.ac.in/MoA/MoA.html">Memorandum of
+                                        Association</a></li>
+                                <li><a href="director.php">Director Message</a></li>
+                                <li class="dropdown"><a href="#"><span>Governing Bodies</span> <i
+                                            class="bi bi-chevron-down toggle-dropdown"></i></a>
+                                    <ul>
+                                        <li><a href="bog.php">Board of Governers</a></li>
+                                        <li><a href="finance.php">Finance Committee</a></li>
+                                        <li><a href="acadcouncil.php">Academic Council</a></li>
+                                        <li><a href="senate.php">Senate</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="bogminutes.php">Minutes of BOG Meeting</a></li>
+                                <li><a href="annualreport.php">Annual Reports</a></li>
+                                <li><a href="prevchairmen.php">Previous Chairmen and Directors</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown"><a href="#administration"><span>Administration</span> <i
+                                    class="bi bi-chevron-down toggle-dropdown"></i></a>
+                            <ul>
+                                <li><a href="dean.php">Dean</a></li>
+                                <li class="dropdown"><a href="#"><span>Committees & Incharge</span> <i
+                                            class="bi bi-chevron-down toggle-dropdown"></i></a>
+                                    <ul>
+                                        <li><a href="diroffice.php">Directors Office</a></li>
+                                        <li><a href="admin.php">Office of Admin & Accounts</a></li>
+                                        <li><a href="cvo.php">Chief Vigilance Officer</a></li>
+                                        <li><a href="nopg.php">Nodal Officer - Public Grievance</a></li>
+                                        <li><a href="ombudsperson.php">Ombudsperson</a></li>
+                                        <li><a href="guesthouse.php">Guest House & Hotel</a></li>
+                                        <li><a href="estate.php">Estate Officer</a></li>
+                                        <li><a href="grievance.php">Grievance Redressal Committee - Internal</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li><a href="estoffice.php">Estate Office</a></li>
+                                <li><a href="policies.php">Policies & Rules</a></li>
+                                <li><a href="apr.php">Annual Property Returns</a></li>
+                                <li><a href="http://localhost:5173/rti/2024/Pan,Tan,GSTINdetails.pdf">Accounts
+                                        Details</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown"><a href="#academics"><span>Academics</span> <i
+                                    class="bi bi-chevron-down toggle-dropdown"></i></a>
+                            <ul class="check">
+                                <li class="dropdown"><a href="#"><span>Departments</span> <i
+                                            class="bi bi-chevron-down toggle-dropdown"></i></a>
+                                    <ul>
+                                        <li><a href='civil.php'>Department Of Civil
+                                                Engineering</a></li>
+                                        <li><a href='computer.php'>Department Of Computer
+                                                Science And Engineering</a></li>
+                                        <li><a href='mediatech'>Department Of Educational
+                                                Media And Technology</a></li>
+                                        <li><a href='eee.php'>Department Of Electrical And
+                                                Electronics Engineering</a></li>
+                                        <li><a href='electronics.php'>Department Of
+                                                Electronics And Communication Engineering</a></li>
+                                        <li><a href='mech.php'>Department Of Mechanical
+                                                Engineering</a></li>
+                                        <li><a href='education.php'>Department Of
+                                                Education</a></li>
+                                        <li><a href='curriculum.php'>Department Of Curriculum
+                                                Development</a></li>
+                                        <li><a href='centre_rural.php'>Department Of Rural And
+                                                Entrepreneurship Development</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#overview">Overview</a></li>
+                                <li><a href="https://www.nitttrc.ac.in/uploads/EOA%20Report%202024-2025.pdf">AICTE-EOA
+                                        Report</a></li>
+                                <li class="dropdown"><a href="#"><span>Centres</span> <i
+                                            class="bi bi-chevron-down toggle-dropdown"></i></a>
+                                    <ul>
+                                        <li><a href='acad.php'>Academic Studies & Research</a></li>
+                                        <li><a href='international.php'>International
+                                                Affairs</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="faculty.php">Faculty </a></li>
+                                <li><a href="staff.php">Staff</a></li>
+                                <li><a href="https://nitttrc.ac.in/fdp_pgm1.php#top" target="_blank">Professional
+                                        Development Program</a></li>
+                                <li><a href="https://nitttrc.ac.in/fdp_pgm1.php#top" target="_blank">International
+                                        Training
+                                        Program</a></li>
+                                <li><a href="#national-coordinators">National Coordinators</a></li>
+                                <li><a href="#oer">Digital Repository</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown"><a href="#admissions"><span>Admissions</span> <i
+                                    class="bi bi-chevron-down toggle-dropdown"></i></a>
+                            <ul>
+                                <li><a href="https://www.nitttrc.ac.in/admission/index.php">Admission Portal</a>
+                                </li>
+                                <li><a href="https://www.nitttrc.ac.in/admissions/PG%20PROGRAMME.pdf">PG
+                                        Regulations</a></li>
+                                <li><a href="https://www.nitttrc.ac.in/admissions/PHD%20PROGRAMME.pdf">PhD
+                                        Regulations</a></li>
+                                <li><a href="pgcourse.php">Courses Offered</a></li>
+                            </ul>
+                        </li>
 
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#institute" id="instituteDropdown"
-                                    role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                    Institute
-                                </a>
-                                <ul class="dropdown-menu" aria-labelledby="instituteDropdown">
-                                    <li><a class="dropdown-item" href="about.php">About Us</a></li>
-                                    <li><a class="dropdown-item" href="vision.php">Vision & Mission</a></li>
-                                    <li><a class="dropdown-item"
-                                            href="https://www.nitttrc.ac.in/MoA/MoA.html">Memorandum of
-                                            Association</a></li>
-                                    <li><a class="dropdown-item" href="director.php">Director Message</a></li>
-
-                                    <li class="dropdown">
-                                        <a href="#"><span>Governing Bodies</span> <i
-                                                class="bi bi-chevron-down toggle-dropdown"></i></a>
-                                        <ul>
-                                            <li><a class="dropdown-item" href="bog.php">Board of Governers</a></li>
-                                            <li><a class="dropdown-item" href="finance.php">Finance Committee</a></li>
-                                            <li><a class="dropdown-item" href="acadcouncil.php">Academic Council</a>
-                                            </li>
-                                            <li><a class="dropdown-item" href="senate.php">Senate</a></li>
-                                        </ul>
-                                    </li>
-
-
-
-                                    <li><a class="dropdown-item" href="bogminutes.php">Minutes of BOG Meeting</a></li>
-                                    <li><a class="dropdown-item" href="annualreport.php">Annual Reports</a></li>
-                                    <li><a class="dropdown-item" href="prevchairmen.php">Previous Chairmen and
-                                            Directors</a>
-                                    </li>
-                                </ul>
-                            </li>
-
-
-
-                            <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#administration"
-                                    id="navbarDropdown" role="button" data-bs-toggle="dropdown"
-                                    aria-expanded="false">Administration</a>
-                                <ul class="dropdown-menu" aria-labelledby="administrationDropdown">
-                                    <li><a class="dropdown-item" href="dean.php">Dean</a></li>
-
-
-
-
-                                    <li class="dropdown"><a href="#"><span>Committees & Incharge</span> <i
-                                                class="bi bi-chevron-down toggle-dropdown"></i></a>
-                                        <ul>
-                                            <li><a class='dropdown-item' href='diroffice.php'>DIRECTORS OFFICE</a></li>
-                                            <li><a class='dropdown-item' href='admin.php'>Office of Admin & Accounts</a>
-                                            </li>
-                                            <li><a class='dropdown-item' href='cvo.php'>Chief Vigilance Officer</a></li>
-                                            <li><a class='dropdown-item' href='nopg.php'>Nodal Officer - Public
-                                                    Grievance</a></li>
-                                            <li><a class='dropdown-item' href='ombudsperson.php'>Ombudsperson</a></li>
-                                            <li><a class='dropdown-item' href='guesthouse.php'>Guest House & Hotel</a>
-                                            </li>
-                                            <li><a class='dropdown-item' href='estate.php'>Estate Officer</a></li>
-                                            <li><a class='dropdown-item' href='grievance.php'>Grievance Redressal
-                                                    Committee
-                                                    - Internal</a></li>
-                                        </ul>
-                                    </li>
-
-
-                                    <li><a class="dropdown-item" href="estoffice.php">Estate Office</a></li>
-                                    <!-- <li><a class="dropdown-item" href="stores.php">Stores and Purchase</a></li> -->
-
-                                    <!-- <li><a class="dropdown-item" href="admin_accounts.php">Staff of Admin & Accounts</a></li> -->
-                                    <li><a class="dropdown-item" href="policies.php">Policies & Rules</a></li>
-                                    <li><a class="dropdown-item" href="apr.php">Annual Property Returns</a></li>
-                                    <li><a class="dropdown-item"
-                                            href="http://localhost:5173/rti/2024/Pan,Tan,GSTINdetails.pdf">Accounts
-                                            Details</a></li>
-                                </ul>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#academics" id="navbarDropdown" role="button"
-                                    data-bs-toggle="dropdown" aria-expanded="false">Academics</a>
-                                <ul class="dropdown-menu" aria-labelledby="academicsDropdown">
-                                    <li class="dropdown"><a href="#"><span>Departments</span> <i
-                                                class="bi bi-chevron-down toggle-dropdown"></i></a>
-                                        <ul>
-                                            <li><a class='dropdown-item' href='civil.php'>Department Of Civil
-                                                    Engineering
-                                                </a>
-                                            </li>
-                                            <li><a class='dropdown-item' href='computer.php'>Department Of Computer
-                                                    Science And Engineering</a>
-                                            </li>
-                                            <li><a class='dropdown-item' href='mediatech'>Department Of Educational
-                                                    Media And Technology</a>
-                                            </li>
-                                            <li><a class='dropdown-item' href='eee.php'>Department Of Electrical And
-                                                    Electronics Engineering</a>
-                                            </li>
-                                            <li><a class='dropdown-item' href='electronics.php'>Department Of
-                                                    Electronics And Communication Engineering</a>
-                                            </li>
-                                            <li><a class='dropdown-item' href='mech.php'>Department Of Mechanical
-                                                    Engineering</a>
-                                            </li>
-                                            <li><a class='dropdown-item' href='education.php'>Department Of
-                                                    Education</a>
-                                            </li>
-                                            <li><a class='dropdown-item' href='curriculum.php'>Department Of Curriculum
-                                                    Development</a>
-                                            </li>
-                                            <li><a class='dropdown-item' href='centre_rural.php'>Department Of Rural And
-                                                    Entrepreneurship Development</a>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li><a class="dropdown-item" href="#overview">Overview</a></li>
-                                    <li><a class="dropdown-item"
-                                            href="https://www.nitttrc.ac.in/uploads/EOA%20Report%202024-2025.pdf">AICTE-EOA
-                                            Report</a></li>
-
-                                    <li class="dropdown"><a href="#"><span>Centres</span> <i
-                                                class="bi bi-chevron-down toggle-dropdown"></i></a>
-                                        <ul>
-                                            <li><a class='dropdown-item' href='acad.php'>Academic Studies & Research</a>
-                                            </li>
-                                            <li><a class='dropdown-item' href='international.php'>International
-                                                    Affairs</a>
-                                            </li>
-                                        </ul>
-                                    </li>
-
-                                    <li><a class="dropdown-item" href="faculty.php">Faculty </a></li>
-                                    <li><a class="dropdown-item" href="staff.php">Staff </a></li>
-                                    <li><a class="dropdown-item" href="https://nitttrc.ac.in/fdp_pgm1.php#top"
-                                            target="_blank">Professional Development Program</a></li>
-                                    <li><a class="dropdown-item" href="https://nitttrc.ac.in/fdp_pgm1.php#top"
-                                            target="_blank">International Training Program</a></li>
-                                    <li><a class="dropdown-item" href="#national-coordinators">National Coordinators</a>
-                                    </li>
-                                    <li><a class="dropdown-item" href="#oer">Digital Repository</a></li>
-                                </ul>
-                            </li>
-
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#admissions" id="navbarDropdown" role="button"
-                                    data-bs-toggle="dropdown" aria-expanded="false">Admissions</a>
-                                <ul class="dropdown-menu" aria-labelledby="admissionsDropdown">
-                                    <li><a class="dropdown-item"
-                                            href="https://www.nitttrc.ac.in/admission/index.php">Admission Portal</a>
-                                    </li>
-                                    <li><a class="dropdown-item"
-                                            href="https://www.nitttrc.ac.in/admissions/PG%20PROGRAMME.pdf">PG
-                                            Regulations</a></li>
-                                    <li><a class="dropdown-item"
-                                            href="https://www.nitttrc.ac.in/admissions/PHD%20PROGRAMME.pdf">PhD
-                                            Regulations</a></li>
-                                    <li><a class="dropdown-item" href="pgcourse.php">Courses Offered</a></li>
-
-                                </ul>
-                            </li>
-                            <!-- <li class="nav-item dropdown">
-                          <a class="nav-link dropdown-toggle" href="#facilities" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Facilities</a>
-                        </li> -->
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#study" id="navbarDropdown" role="button"
-                                    data-bs-toggle="dropdown" aria-expanded="false">Study @ NITTTR</a>
-                                <ul class="dropdown-menu" aria-labelledby="studyDropdown">
-                                    <li><a class="dropdown-item" href="#salient-features">Salient Features</a></li>
-                                    <li><a class="dropdown-item" href="#pg-programme">PG Programme</a></li>
-                                    <li><a class="dropdown-item" href="#pg-diploma">PG Diploma</a></li>
-                                    <li><a class="dropdown-item" href="#pg-certificate">PG Certificate</a></li>
-                                    <!-- <li><a class="dropdown-item" href="#integrated-teacher-education">Integrated Teacher Education Program</a></li> -->
-                                    <li><a class="dropdown-item" href="#research">Research</a></li>
-                                </ul>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#information" id="navbarDropdown"
-                                    role="button" data-bs-toggle="dropdown" aria-expanded="false">Information Corner</a>
-                                <ul class="dropdown-menu" aria-labelledby="informationDropdown">
-                                    <li><a class="dropdown-item"
-                                            href="https://www.onlinesbi.sbi/sbicollect/icollecthome.htm?corpID=3755167">Fee
-                                            Payment</a></li>
-                                    <li class="dropdown">
-                                        <a href="#"><span>Recruitment</span>
-                                            <i class="bi bi-chevron-down toggle-dropdown"></i>
-                                        </a>
-                                        <ul class="dropdown-menu" aria-labelledby="recruitmentsDropdown">
-                                            <li><a class="dropdown-item" href="rec_fac.php">Faculty</a></li>
-                                            <li><a class="dropdown-item" href="rec_staff.php">Staff</a></li>
-                                            <li><a class="dropdown-item" href="rec_project.php">Projects</a></li>
-                                            <li><a class="dropdown-item" href="rec_contract.php">Contract</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a class="dropdown-item"
-                                            href="https://www.nitttrc.ac.in/uploads/NITTTRc-AICTE.pdf">Mandatory
-                                            Disclosure</a></li>
-                                    <li><a class="dropdown-item"
-                                            href="https://www.nitttrc.ac.in/uploads/Equal_opportunity_policy_NISER.pdf">Equal
-                                            Opportunity Policy</a></li>
-                                    <li><a class="dropdown-item" href="newsletter.php">News Letters</a></li>
-                                    <li><a class="dropdown-item"
-                                            href="https://www.nitttrc.ac.in/cirlogin.php">Circular</a>
-                                    </li>
-                                    <li><a class="dropdown-item" href="biscorner.php">Bis Corner</a></li>
-                                    <li><a class="dropdown-item" href="#rti-act">RTI ACT</a></li>
-                                    <li><a class="dropdown-item" href="brochure.php">Brochure</a></li>
-                                    <li><a class="dropdown-item" href="https://email.gov.in/">Webmail</a></li>
-                                    <li><a class="dropdown-item"
-                                            href="https://www.nitttrc.ac.in/JTVE/index.html">JTVE</a>
-                                    </li>
-                                </ul>
-                            </li>
-
-                            <!-- <li class="nav-item">
-                            <a class="nav-link" href="contact.php">Contact us</a>
-                        </li> -->
-
-                        </ul>
-                    </div>
+                        <li class="dropdown"><a href="#study"><span>Study @ NITTTR</span> <i
+                                    class="bi bi-chevron-down toggle-dropdown"></i></a>
+                            <ul>
+                                <li><a href="#salient-features">Salient Features</a></li>
+                                <li><a href="#pg-programme">PG Programme</a></li>
+                                <li><a href="#pg-diploma">PG Diploma</a></li>
+                                <li><a href="#pg-certificate">PG Certificate</a></li>
+                                <!-- <li><a href="#integrated-teacher-education">Integrated Teacher Education Program</a></li> -->
+                                <li><a href="#research">Research</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown"><a href="#information"><span>Information Corner</span> <i
+                                    class="bi bi-chevron-down toggle-dropdown"></i></a>
+                            <ul>
+                                <li><a href="https://www.onlinesbi.sbi/sbicollect/icollecthome.htm?corpID=3755167">Fee
+                                        Payment</a></li>
+                                <li class="dropdown"><a href="#"><span>Recruitment</span> <i
+                                            class="bi bi-chevron-down toggle-dropdown"></i></a>
+                                    <ul>
+                                        <li><a href="rec_fac.php">Faculty</a></li>
+                                        <li><a href="rec_staff.php">Staff</a></li>
+                                        <li><a href="rec_project.php">Projects</a></li>
+                                        <li><a href="rec_contract.php">Contract</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="https://www.nitttrc.ac.in/uploads/NITTTRc-AICTE.pdf">Mandatory
+                                        Disclosure</a></li>
+                                <li><a href="https://www.nitttrc.ac.in/uploads/Equal_opportunity_policy_NISER.pdf">Equal
+                                        Opportunity Policy</a></li>
+                                <li><a href="newsletter.php">News Letters</a></li>
+                                <li><a href="https://www.nitttrc.ac.in/cirlogin.php">Circular</a>
+                                </li>
+                                <li><a href="biscorner.php">Bis Corner</a></li>
+                                <li><a href="#rti-act">RTI ACT</a></li>
+                                <li><a href="brochure.php">Brochure</a></li>
+                                <li><a href="https://email.gov.in/">Webmail</a></li>
+                                <li><a href="https://www.nitttrc.ac.in/JTVE/index.html">JTVE</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
                 </nav>
                 <!-- .navbar -->
                 <form class="navbar-form d-flex align-items-start" role="search" id="srch" action="" method="post"
@@ -556,7 +482,6 @@ p {
                         <i class="close-icon fa-solid fa-xmark"></i>
                     </div>
                 </form>
-</div>
             </div>
 
 

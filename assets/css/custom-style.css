@@ -47,6 +47,12 @@
 .input-box{
     height: auto;
 }
+.navmenu a, .navmenu a:focus,.navmenu .dropdown ul a{
+  font-size: var(--text-20);
+}
+.navmenu .dropdown .dropdown:hover > ul{
+  left: 100%;
+}
 @media screen and (min-width: 1580px){
     .video-section{
         max-width: 500px;
@@ -70,8 +76,8 @@
         max-width: 150px !important;
         height: 100px !important;
     }
-    .navbar a, .navbar a:focus,.navbar .dropdown ul a{
-        font-size: 17px;
+    .navmenu a, .navmenu a:focus, .navmenu .dropdown ul a {
+        font-size: 17PX;
     }
 }
 @media (max-width: 1366px) {
@@ -164,7 +170,7 @@
         top: 30%;
     }
     .fixed-top-section {
-        top: 200px;
+        top: 191px;
     }
 }
 @media screen and (max-width:575px) {
@@ -172,7 +178,7 @@
         font-size: 14px;
       }
     .fixed-top-section {
-        top: 220px;
+        top: 211px;
     }
     #topbar{
         height: auto;

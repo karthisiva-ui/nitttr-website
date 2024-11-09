@@ -1950,14 +1950,6 @@ section {
   padding: 0;
 }
 
- ul li {
-  display: flex;
-  align-items: flex-start;
-  /* margin-top: 10px; */
-  text-align: justify;
-  color: #111;
-}
-
 ul i {
   flex-shrink: 0;
   font-size: var(--text-48);;
