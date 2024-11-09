@@ -251,12 +251,12 @@
                                             cater to needs of the society.</p>
                                     </li>
                                 </ul>
-                                <div class="d-flex align-items-end justify-content-end">>
+                                <div class="d-flex align-items-end justify-content-center flex-wrap">
                                     <a class="btn btn-primary" href="assets/img/pdf-documents/ME_EECE_Curriculum.pdf"
                                         type="button" download>Click Here: Download Curriculum and
                                         Syllabus</a>
 
-                                    <div class="mt-3 mb-3" style="height:800px;">
+                                    <div class="mt-3 mb-3" style="width:100%;height:800px;">
                                         <object data="assets/img/pdf-documents/ME_Brochure_VLSI.pdf"
                                             type="application/pdf" width="100%" height="100%"
                                             aria-labelledby="PDF document" title="Embedded PDF Viewer">

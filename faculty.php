@@ -31,7 +31,7 @@
 </div><!-- End Page Title -->
 
 
-<div class="container justify-content-center" data-aos="fade-up">
+<div class="container justify-content-center pt-5 faculty-list" data-aos="fade-up">
 
 <div class="row"  data-aos="zoom-out" data-delay="100">
 
@@ -304,7 +304,7 @@ $facultyData = [ [
     ini_set('display_startup_errors', 1);
     error_reporting(E_ALL);
   foreach ($facultyData as $faculty) {
-    echo "<div class='container col-md-3 mb-3'>"; 
+    echo "<div class='col-md-3 mb-3'>"; 
     echo "  <div class='card shadow-sm'>"; 
     
     // Display the image

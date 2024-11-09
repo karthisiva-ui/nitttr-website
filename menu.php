@@ -47,6 +47,7 @@ $website1="https://www.nitttrc.ac.in/";
 
     <!-- Template Main CSS File -->
     <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/responsive-style1.css" rel="stylesheet">
     <link href="assets/css/custom-style.css" rel="stylesheet">
 
 
