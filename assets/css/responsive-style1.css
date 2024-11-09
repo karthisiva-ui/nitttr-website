@@ -1,4 +1,7 @@
 /* # Responsiveness 1 */
+.course-list .card-text{
+    font-size: var(--text-18);
+}
 @media screen and (max-width:1400px) {
     .breadcrumbs ol{
         font-size: var(--text-14);
@@ -19,10 +22,19 @@
     .courses-details .content .content-pra{
         margin-bottom: 30px;
     }
+    .course-list .card-text{
+        font-size: var(--text-18);
+    }
 }
 @media screen and (max-width: 1200px) {
     .faculty-list .col-md-3{
         width: 33.25%;
+    }
+    .course-list .card-text {
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        overflow: hidden;
+        -webkit-box-orient: vertical;
     }
 }
 @media screen and (max-width: 992px) {
@@ -45,11 +57,17 @@
     .courses-details .content .content-pra{
         margin-bottom: 25px;
     }
-    .faculty-list .col-md-3{
+    .faculty-list .col-md-3, .course-list .col-md-4{
         width: 50%;
     }
     .faculty-list .card-text{
         font-size: var(--text-16);
+    }
+    .course-list .card-text{
+        font-size: var(--text-14);
+    }
+    .course-list .btn.btn-primary{
+        font-size: var(--text-12);
     }
 }
 @media screen and (max-width: 767px) {
@@ -78,7 +96,7 @@
         text-align: center;
         font-size: var(--text-14);
     }
-    .faculty-list .col-md-3{
+    .faculty-list .col-md-3, .course-list .col-md-4{
         width: 60%;
         margin: 0 auto;
     }
@@ -108,7 +126,7 @@
     .courses-details ul i{
         font-size: var(--text-16);
     }
-    .faculty-list .col-md-3{
+    .faculty-list .col-md-3, .course-list .col-md-4{
         width: 100%;
         margin: 0 auto;
     }
