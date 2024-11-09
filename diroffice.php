@@ -24,7 +24,7 @@
 </div><!-- End Page Title -->
 
 
-<div class="container justify-content-center" data-aos="fade-up">
+<div class="container justify-content-center faculty-list" data-aos="fade-up">
 
 
 <div class="row"  data-aos="zoom-out" data-delay="100">
