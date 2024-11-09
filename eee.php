@@ -221,11 +221,11 @@
                                         <p>M.E. in VLSI Design and Embedded Systems is a unique course and inclined towards Industrial needs. In this programme, the latest technology such as Internet of Things, Industry 4.0, Cyber Physical System, Industrial Automation, Embedded System on Chip design, Machine learning, Deep Learning, Advanced Communication Systems, E-vehicle Technologies and Telemedicine have been focused. Also majority of the courses offered under these programmes will be focusing more on practical applications with Industry relevant case studies. This programme is not alone focusing on the emerging areas, but also develop problem analysis and design skills of the students in the domain. Industry experts also will be involved in handling classes and students will be able to interact with different industry experts. The uniqueness of this programme is to encourage the students to undergo the Industrial problem based projects. Hence the students who are undertaking these programmes will gain knowledge in solving Industry based Problems and develop expertise in research and development to cater to needs of the society.</p>
                                     </li>
                                 </ul>
-                                <div class="d-flex align-items-end justify-content-end">
+                                <div class="d-flex align-items-end justify-content-center flex-wrap">
                                 <a class="btn btn-primary" href="assets/img/pdf-documents/ME_EECE_Curriculum.pdf" type="button" download>Click Here: Download Curriculum and
                                 Syllabus</a>
                                         
-                                    <div class="mt-3 mb-3" style="height:800px;">
+                                    <div class="mt-3 mb-3" style="width:100%;height:800px;">
                                         <object data="assets/img/pdf-documents/ME_Brochure_VLSI.pdf"
                                             type="application/pdf" width="100%" height="100%"
                                             aria-labelledby="PDF document" title="Embedded PDF Viewer">
