@@ -14,8 +14,14 @@
 </section> -->
 <!-- ======= Hero Section ======= -->
 <section id="hero" class="d-flex align-items-center">
-    <div class="p-0" data-aos="zoom-out" data-aos-delay="100">
-        <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+    <div class="p-0 row" data-aos="zoom-out" data-aos-delay="100">
+        <div class="video-section p-0">
+            <video autoplay muted loop playsinline preload="metadata" style="height:100%;width: 100%;">
+                <source src="assets/img/nitttr-sh-video.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
+        </div>
+        <div id="carouselExample" class="carousel slide p-0" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <img src="assets/img/banner/banner-11.jpg" class="d-block w-100" alt="banner-image">
@@ -101,7 +107,7 @@
 
     <!-- ======= Featured Services Section ======= -->
     <section id="featured-services" class="featured-services icon-section">
-        <p>&nbsp;</p><br />
+        
         <div class="container">
 
             <div class="row">
@@ -110,7 +116,7 @@
                         <div class="icon"><img src="assets/img/icons/icon-1.png" class="img-fluid" alt="icon" /></div>
                         <h4 class="title"><a href="recruitment_2023.php" target="_blank">Recruitment</a></h4>
                         <p class="description">Teaching & Non Teaching</p>
-                        <a href="#" class="link-text-box">Recruitment of Associate professor Advt. No.: 11/2023-24</a>
+                        <a href="rec_fac.php" class="btn btn-primary" >Read More</a>
                     </div>
                 </div>
 
@@ -145,7 +151,7 @@
             </div>
 
         </div>
-        <p>&nbsp;</p><br />
+        
     </section>
     <!-- End Featured Services Section -->
 
@@ -196,7 +202,7 @@
                             </div>
                         </div>
                     </div>
-                    <p>&nbsp;</p><br />
+                    
                 </div>
                 <div class="col-lg-6 pt-4 pt-lg-0 content d-flex flex-column justify-content-center" data-aos="fade-up"
                     data-aos-delay="100">
@@ -219,7 +225,7 @@
                             <li class="nav-item" role="presentation">
                                 <button class="nav-link" id="event-tab" data-bs-toggle="tab"
                                     data-bs-target="#achieve-tab-2" type="button" role="tab" aria-controls="achieve"
-                                    aria-selected="false">Achievements</button>
+                                    aria-selected="false">Collaborations</button>
                             </li>
                             <li class="nav-item" role="presentation">
                                 <button class="nav-link" id="event-tab" data-bs-toggle="tab"
@@ -524,7 +530,7 @@
 
             <div class="section-title">
                 <h3 class="title-text"><span>NITTTR Chennai</span> at a Glance</h3>
-                <p>&nbsp;</p><br />
+                
             </div>
 
 
@@ -541,11 +547,11 @@
                                 data-bs-target="#features-tab-1" type="button" role="tab" aria-controls="features"
                                 aria-selected="true">Academics</button>
                         </li>
-                        <li class="nav-item" role="presentation">
+                        <!-- <li class="nav-item" role="presentation">
                             <button class="nav-link" id="features-tab" data-bs-toggle="tab"
                                 data-bs-target="#features-tab-2" type="button" role="tab" aria-controls="features"
                                 aria-selected="false">PDP Course</button>
-                        </li>
+                        </li> -->
                         <li class="nav-item" role="presentation">
                             <button class="nav-link" id="features-tab" data-bs-toggle="tab"
                                 data-bs-target="#features-tab-3" type="button" role="tab" aria-controls="features"
@@ -573,13 +579,13 @@
                         <div class="tab-pane fade show active" id="features-tab-01" role="tabpanel"
                             aria-labelledby="home-tab">
                             <div class="pt-4" style="position:relative;">
-                                <img src="assets/img/history.jpg" class="img-fluid" alt="img" />
-                                <div class="hover-section">
+                                <img src="assets/img/60 years.jpg" class="img-fluid" alt="img" />
+                                <!-- <div class="hover-section">
                                     <img src="assets/img/60years.jpg" class="img-fluid" alt="img" />
                                     <div class="stories-section">
                                         <img src="assets/img/maxresdefault.jpg" class="img-fluid" alt="college-img" />
                                     </div>
-                                </div>
+                                </div> -->
 
                             </div>
                         </div>
@@ -801,14 +807,18 @@
                         </div>
                         <div class="tab-pane fade" id="features-tab-5" role="tabpanel" aria-labelledby="contact-tab">
                             <div id="chartProgramme"></div>
+                        <img src="assets/img/programme.jfif" class="img-fluid" alt="Sample Image"
+                                        style="align-items: center; height: auto; max-width: 100%;">
+                        
+                            <div id="chartProgramme"></div>
                         </div>
                         <div class="tab-pane fade" id="features-tab-6" role="tabpanel" aria-labelledby="contact-tab">
-                            <div class="row align=items-center pt-4">
+                            <div class="row align=items-center ">
                                 <!-- Content Section (8 columns for the content) -->
-                                <div class="col-lg-12 col-md-12">
-                                    <h2 style="text-align:center">Global Presence</h2>
-                                    <img src="assets/img/chart/global.png" class="img-fluid" alt="Sample Image"
-                                        style="align-items: center; height: auto; max-width: 100%;  width:50%;">
+                                <div>
+                                    <!-- <h2 style="text-align:center">Global Presence</h2> -->
+                                    <img src="assets/img/global.png" style="text-align:center; width: 75%; height: 80%;" class="img-fluid" alt="Sample Image"
+                                        >
                                 </div>
                             </div>
                         </div>
@@ -925,7 +935,7 @@
                             <img src="assets/img/icons/course.svg" alt="">
                         </div>
                         <div>
-                            <span class="counter" data-count="+" data-to="500" data-speed="3000">500</span>
+                            <span class="counter" data-count="+" data-to="500" data-speed="3000">182</span>
                             <h6 class="title">+ PG Students </h6>
                         </div>
                     </div>
@@ -936,7 +946,7 @@
                             <img src="assets/img/icons/graduation.svg" alt="">
                         </div>
                         <div>
-                            <span class="counter" data-count="+" data-to="1900" data-speed="3000">1900</span>
+                            <span class="counter" data-count="+" data-to="1900" data-speed="3000">62</span>
                             <h6 class="title">+ PhD Scholars</h6>
                         </div>
                     </div>
@@ -947,7 +957,7 @@
                             <img src="assets/img/icons/teacher-2.svg" alt="">
                         </div>
                         <div>
-                            <span class="counter" data-count="+" data-to="750" data-speed="3000">750</span>
+                            <span class="counter" data-count="+" data-to="750" data-speed="3000">32</span>
                             <h6 class="title">+ Faculty</h6>
                         </div>
                     </div>
@@ -958,7 +968,7 @@
                             <img src="assets/img/icons/teacher.png" alt="">
                         </div>
                         <div>
-                            <span class="counter" data-count="+" data-to="30" data-speed="3000">30</span>
+                            <span class="counter" data-count="+" data-to="30" data-speed="3000">83</span>
                             <h6 class="title">+ Non-Teaching</h6>
                         </div>
                     </div>
@@ -979,7 +989,7 @@
         <div class="container" data-aos="zoom-in">
             <div class="section-title">
                 <h3><span>MoU & Industrial Collaborations</span></h3>
-                <p>&nbsp;</p><br />
+                
             </div>
 
 
@@ -1052,7 +1062,7 @@
                 </button>
             </div>
         </div>
-        <p>&nbsp;</p><br />
+        
     </section><!-- End Clients Section -->
 
 
@@ -1130,7 +1140,7 @@
         <div class="container" data-aos="zoom-out">
             <div class="section-title">
                 <h3><span>International Relations</span></h3>
-                <p>&nbsp;</p><br />
+                
             </div>
             <!-- Swiper CSS -->
             <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />

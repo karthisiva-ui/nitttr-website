@@ -832,7 +832,7 @@ section {
 }
 
 .about .content p:last-child {
-  m: 0;
+  margin-bottom: 0;
 }
 
 /*--------------------------------------------------------------
@@ -1972,7 +1972,6 @@ ul h5 {
 
 ul p {
   font-size: var(--text-15);
-  
 }
 
 h2{
@@ -2746,4 +2745,17 @@ section#portfolio{
 .btn-primary{
   background-color: #29315a !important;
   border-color: #29315a;
+}
+.about-content h3::after {
+  position: absolute;
+  content: '';
+  bottom: -15px;
+  left: 0;
+  width: 60px;
+  height: 2px;
+  background-color: #062b5b;
+}
+.about-content h3 {
+  position: relative;
+  margin-bottom: 2rem;
 }

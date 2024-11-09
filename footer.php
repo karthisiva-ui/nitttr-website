@@ -111,6 +111,9 @@
 <script src="https://code.highcharts.com/modules/accessibility.js"></script>
 <script src="assets/js/apexcharts.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+<script src="assets/vendor/datatable/js/datatable.js"></script>
+<script src="assets/vendor/datatable/js/datatable.min.js"></script>
+<script src="assets/vendor/datatable/js/responsive-datatable.js"></script>
 <!-- Template Main JS File -->
 <script src="assets/js/main.js"></script>
 <script src="assets/js/custom.js"></script>
@@ -518,6 +521,10 @@ function resetDrilldown(chart) {
     });
 
 })();
+
+$(document).ready(function() {
+    $('#example').dataTable();
+});
 
 </script>
 
