@@ -62,7 +62,7 @@
 </section>
 <!--End Hero -->
 <section class="m-0 p-0" id="dynamic">
-    <div class="container-fluid p-0" data-aos="fade-down-right" data-aos-delay="150">
+    <div class="container-fluid p-0">
         <div class="marquee-container py-2">
             <div class="marquee-content">
                 <a href="<?php echo $website; ?>rec2024/Important Notice regarding JSA, MTS & Group B posts dated.24.09.2024.pdf"

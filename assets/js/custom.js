@@ -1,6 +1,6 @@
 // scroll bar fixed class adding and remove
 $(window).scroll(function(){
-  if ($(this).scrollTop() > 750) {
+  if ($(this).scrollTop() > 550) {
      $('#dynamic').addClass('fixed-top-section');
   } 
   else {

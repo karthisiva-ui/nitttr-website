@@ -260,7 +260,7 @@ p {
     <!-- ======= Top Bar ======= -->
     <section class="top-header-section p-0" id="scrollHeader">
         <div id="topbar" class="d-flex align-items-center">
-            <div class="container d-flex justify-content-center justify-content-md-between">
+            <div class="container d-sm-flex justify-content-between">
                 <div class="contact-info d-flex align-items-center">
                     <i class="bi bi-house  d-flex justify-content-center "></i><a class="nav-link" style="color: white;"
                         href="index.php">Home</a>&nbsp;|&emsp;
@@ -300,7 +300,7 @@ p {
                                 src="assets/img/new-logo.png" alt="logo"></a>
                     </div>
                     <div class="col-md-6">
-                        <div class="d-flex align-items-center justify-content-end">
+                        <div class="d-flex align-items-center justify-content-center justify-content-md-center">
                             <div class="col-auto add-logo-img">
                                 <img src="assets/img/logo_2.png" class="img-fluid" alt="logo" />
                             </div>
@@ -316,7 +316,7 @@ p {
 
 
             <div class="container">
-                <div class="d-flex align-content-start">
+                <div class="d-flex align-items-center">
                 <nav class="navbar navbar-expand-lg navbar-light w-100">
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
